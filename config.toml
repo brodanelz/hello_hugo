@@ -1,4 +1,4 @@
-baseurl = "https://example.org/"
+baseurl = "http://astrologer-stability-56565.netlify.com/"
 languageCode = "en-us"
 title = "Vods.tv"
 theme = "hugo-creative-theme"
