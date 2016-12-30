@@ -1,0 +1,92 @@
+baseurl = "http://astrologer-stability-56565.netlify.com/"
+languageCode = "en-us"
+title = "Vods.tv"
+theme = "hugo-creative-theme"
+googleAnalytics = ""
+
+[params]
+
+	# You can use Markdown syntax for urls [text](//url.to/source) for
+	# most longer texts.
+
+	# All icons using Fontawesome's icon font. Look at http://fontawesome.io/icons/
+	# for more icons. The icons are represented by their corresponding
+	# CSS class.
+
+	# All projects of the portfolio are defined in their own files.
+	# You can find example projects at 'exampleSite/data/projects'. Copy the 'projects'
+	# folder into the 'data' directory at the root of this Hugo site.
+	# For more information take a look at the README.
+
+	# To provide some metadata for search engines feel free to add some
+	# information about you and your website.
+	name = "Your name"
+	description = "Your description"
+
+	# The path must be relative to the static folder
+	favicon = "favicon.ico"
+
+
+	# Navigation
+	[params.navigation]
+		brand = "Vods.tv"
+
+		[params.navigation.links]
+			about     = "What we do"
+			services  = "What you get"
+			contact   = "Contact"
+
+
+	# Hero section
+	[params.hero]
+		# To change the background of the hero section, replace the 'header.jpg' at './static/img' with your own.
+		slogan     = "Vods made simple"
+		subtitle   = "We find the vods for you. You sit back and watch."
+		# buttonText = "Find out more"
+
+
+	# About section
+	[params.about]
+		headline    = "We want to make Vods great again."
+		description = "We comb the internet finding vods that you want to watch and group them in ways you are familiar with. All you have to do is go out and discover what is out there for you to see!"
+		# buttonText  = "Get started!"
+
+
+	# Service section
+	[params.services]
+		headline = "Designed for You"
+
+        [[params.services.list]]
+            icon = "fa-ban"
+            title = "Spoiler Free"
+            description = "We don't want to be that guy, so we work tirelessly to keep the interface and data from spoiling the fun"
+
+        [[params.services.list]]
+			icon = "fa-thumb-tack"
+			title = "Vod Markers"
+			description = "Want to jump striaght to the start a game? We got an app for that"
+
+		[[params.services.list]]
+            icon = "fa-list"
+            title = "Personal Feeds"
+            description = "Build you own personal list of content you want to see."
+
+        [[params.services.list]]
+            icon = "fa-bank"
+            title = "Match Bank"
+            description = "Get lost in a see of matches layed out for you to enjoy."
+
+    # Aside section
+	# [params.aside]
+	# 	headline = "Get the Creative Theme for Hugo"
+
+	# 	[params.aside.button]
+	# 		text = "Download now"
+	# 		link = "//github.com/digitalcraftsman/hugo-creative-theme"
+
+	# Contact section
+	[params.contact]
+		headline = "What can we do for you?"
+		description = "Is something wrong or missing? Please let us know so that we can fix it!"
+		phone = "123-456-6789"
+		email = "feedback@startbootstrap.com"
